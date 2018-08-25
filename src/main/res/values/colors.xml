@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_bg">#2C74BB</color>
+    <color name="yellow_self">#FECE00</color>
+    <color name="activity_bg">#F1F1F1</color>
+    <color name="frame_bg">#D5D5D5</color>
+
+    <color name="text_white">#EFF7F8</color>
+
+    <color name="page_run_text_color">#3171C1</color>
+
+    <color name="blue_homepage_item">#6A8ABD</color>
+
+    <color name="sky_blue_homepage_item">#00A0EA</color>
+    <color name="green_homepage_item">#80C26A</color>
+    <color name="pink_homepage_item">#EB6876</color>
+    <color name="deep_blue_homepage_item">#2E79B3</color>
+    <color name="sea_blue_homepage_item">#2B6BC5</color>
+    <color name="sp_running_mode_bg">#45BFCA</color>
+
+    <color name="black">#000000</color>
+</resources>

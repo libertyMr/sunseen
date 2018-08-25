@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/user_administration_id"
+        android:layout_width="0dp"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/user_administration_name"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:textSize="14sp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/user_administration_power"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:layout_weight="0.2"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:layout_marginTop="4dp"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/iv_user_administration_delete"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="1dp"
+            android:src="@mipmap/delete"/>
+        <TextView
+            android:id="@+id/user_administration_last_login"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="6sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

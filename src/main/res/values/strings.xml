@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SPControlSystem</string>
+
+    <string name="home_page">系统首页</string>
+    <string name="user_administration">用户管理</string>
+    <string name="device_administration">设备管理</string>
+    <string name="system_settings">系统设置</string>
+    <string name="failure_warning">故障报警</string>
+
+    <string name="system_total_switch">系统总开关</string>
+    <string name="system_name">泳池环境智能控制系统</string>
+    
+    <string name="ambient_temperature">环境温度</string>
+    <string name="ambient_humidity">环境湿度</string>
+    <string name="swimming_pool_t">泳池水温</string>
+    <string name="ph_value">PH值</string>
+    <string name="orp_value">ORP值</string>
+    <string name="chlorine">余氯</string>
+    <string name="limpid_grade">清澈度</string>
+    <string name="current_mode">当前模式：</string>
+    <string name="sp_running_mode">泳池运行模式</string>
+    <string name="normal_operation">正常运行</string>
+    <string name="water_temperature_mode">水温模式</string>
+    <string name="dehumidify_mode">除湿模式</string>
+    <string name="computer_room_running">机房运行</string>
+    <string name="underwater_total_lamp">水下灯总开关</string>
+    <string name="mode_1">模式1</string>
+    <string name="filter">过滤</string>
+    <string name="not_filter">非过滤</string>
+    <string name="self_drainage">排水(自重)模式</string>
+    <string name="force_drainage">排水(强排)模式</string>
+    <string name="backwash_mode">反冲洗模式</string>
+    <string name="close_mode">关闭模式</string>
+
+    <string name="water_heating_mode">水加热模式</string>
+    <string name="room_temperature">水自然模式</string>
+    
+    <string name="dehumidify_heat">除湿制热</string>
+    <string name="dehumidify_heat_water">除湿制热水</string>
+    <string name="dehumidify_refrigeration">除湿制冷</string>
+
+    <string name="pay_settings">付费设置</string>
+    <string name="parameter_settings">参数设置</string>
+    <string name="system_log">系统日志</string>
+    <string name="system_upgrad">系统升级</string>
+
+    <string name="water_cycle_system">水循环系统</string>
+    <string name="filter_system">过滤系统</string>
+    <string name="water_quality_monitoring_system">水质监测系统</string>
+    <string name="disinfection_system">消毒系统</string>
+    <string name="water_heating_system">水加热系统</string>
+    <string name="dehumidify_system">除湿系统</string>
+    <string name="lamp_system">灯光系统</string>
+    <string name="computer_room_control_system">机房控制系统</string>
+    <string name="water_supply_system">排给水系统</string>
+    <string name="safety_system">安全保温系统</string>
+    <string name="spa_system">SPA系统</string>
+</resources>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="s_true" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#33da33</item>
+    </style>
+
+    <style name="s_false" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#9b9b9b</item>
+    </style>
+
+    <style name="MyAnimationActivity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_in</item>
+    </style>
+    <style name="MyDialogActivityTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@android:color/transparent</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimAmount">0.6</item><!--透明度 0.0f到1.0f之间。1.0完全不透明，0.0f完全透明-->
+        <item name="android:windowAnimationStyle">@style/MyAnimationActivity</item>
+    </style>
+
+    <style name="MyTxtActivityTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowFrame">@android:color/transparent</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimAmount">0.1</item><!--透明度 0.0f到1.0f之间。1.0完全不透明，0.0f完全透明-->
+        <item name="android:windowAnimationStyle">@style/MyAnimationActivity</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>
